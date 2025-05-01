@@ -1,0 +1,13 @@
+server default {
+listen {
+	ipaddr = *
+	port = 0
+	type = acct
+}
+preacct {
+        preprocess
+}
+accounting {
+   -sql
+}
+}

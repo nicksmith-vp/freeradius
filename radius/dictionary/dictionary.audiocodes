@@ -1,0 +1,33 @@
+# -*- text -*-
+# Copyright (C) 2019 The FreeRADIUS Server project and contributors
+# This work is licensed under CC-BY version 4.0 https://creativecommons.org/licenses/by/4.0
+#
+##############################################################################
+#
+#	Audiocodes
+#
+#	http://www.audiocodes.com/filehandler.ashx?fileid=36358
+#
+#	$Id: 1ce23b3d4a281658fcb3c68598b0105fcd717d5f $
+#
+##############################################################################
+
+VENDOR		AudioCodes			5003
+BEGIN-VENDOR	AudioCodes
+
+ATTRIBUTE   h323-incoming-conf-id       1   string
+ATTRIBUTE   h323-remote-address         23  string
+ATTRIBUTE   h323-conf-id                24  string
+ATTRIBUTE   h323-setup-time             25  string
+ATTRIBUTE   h323-call-origin            26  string
+ATTRIBUTE   h323-call-type              27  string
+ATTRIBUTE   h323-connect-time           28  string
+ATTRIBUTE   h323-disconnect-time        29  string
+ATTRIBUTE   h323-disconnect-cause       30  string
+ATTRIBUTE   h323-gw-id                  33  string
+ATTRIBUTE   sip-call-id                 34  string  
+ATTRIBUTE   call-terminator             35  string
+ATTRIBUTE   terminator                  37  string
+ATTRIBUTE   remote-call-id		254 string
+
+END-VENDOR	AudioCodes
